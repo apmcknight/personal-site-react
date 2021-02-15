@@ -2,17 +2,27 @@
 
 body {
   display: block;
-  width: auto;
+  width: 50%;
   font-family: 'Lora', serif;
-  margin-right: 25%;
-  margin-left: 25%;
+  padding-right: 25%;
+  padding-left: 25%;
   margin-top: 5%;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 72%, rgba(230,230,230,1) 72%);
+  background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 72%, rgba(230,230,230,1) 72%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 72%, rgba(230,230,230,1) 72%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#e6e6e6",GradientType=1);
 }
 
+a{
+  color: #000;
+  text-decoration: none;
+}
+.Intro{ margin-bottom: 70px; }
 .Intro > p{
   text-align: justify;
+  line-height: 1.5em;
 }
-
 .Navbar{ margin-bottom: 10%; }
 .Navbar > h1 { display: inline; }
 .Navbar > .links{
@@ -27,6 +37,61 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+.Recent {
+  margin-bottom: 10%;
+}
+.Recent > a > .recentCard{
+  padding: 20px 40px;
+  border: solid;
+  border-width: 3px;
+  border-color: #d3d3d3;
+  background: #fff;
+  box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
+}
+.Recent > h1{
+  font-style: italic;
+  letter-spacing: -1px;
+  margin-bottom: 5%;
+}
+.Recent > p {
+  line-height: 1.5em;
+}
+.recentItem > a{
+  margin: 100px 0;
+}
+
+.Projects {
+  margin-bottom: 10%;
+}
+.Projects h1{
+  font-style: italic;
+  letter-spacing: -1px;
+  margin-bottom: 5%;
+}
+.Projects p {
+  line-height: 1.5em;
+}
+.Projects > a > .projectCard{
+  padding: 20px 40px;
+  border: solid;
+  border-width: 3px;
+  border-color: #d3d3d3;
+  background: #fff;
+  box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
+}
+.Log { margin-bottom: 20%; }
+.Log > a {
+  margin: 10px 0;
+}
+.Log > a > .LogCard {
+  padding-left: 10%;
+  margin-bottom: 8%;
+}
+
 
 .App-logo {
   height: 40vmin;
