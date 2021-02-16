@@ -3,7 +3,7 @@ import React from 'react';
 function Recent() {
   return (
     <div className="Recent">
-      <h1>&mdash; Recent:</h1>
+      <h1>| Recent:</h1>
 
       <a href="/">
         <div class="recentCard"> 

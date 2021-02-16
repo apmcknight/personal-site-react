@@ -3,7 +3,7 @@ import React from 'react';
 function Projects() {
   return (
     <div className="Projects">
-      <h1>&mdash; Projects:</h1>
+      <h1>| Selected Projects:</h1>
 
       <a href="/">
         <div class="projectCard"> 

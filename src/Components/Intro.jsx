@@ -3,9 +3,13 @@ import React from 'react';
 function Intro() {
   return (
     <div className="Intro">
-      <h1>Hey! My name's Adam McKnight.</h1>
+      <h1>Hello, World! I hope you're doing well.</h1>
       <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti totam vitae deserunt omnis odio sint voluptatum dolorem temporibus vel! Iste, similique repudiandae vel atque fuga dignissimos sint error, qui magnam consectetur in laudantium expedita facere nemo ullam recusandae suscipit dolorum sunt? Deleniti velit animi ducimus consequatur dolor delectus corporis!
+          I'm Adam McKnight, I'm a Software Engineer. Currently, I'm working with companies building (or maintaining) Software Applications. I'm also studying Computer Science and Cybersecurity. This
+          is my home on the WWW. It's where I have my projects, where I write my thoughts and where you
+          can ask me to interview for my dream job!
+          <br />
+          <br />
       </p>
     </div>
   );

@@ -3,11 +3,13 @@ import React from 'react';
 function Navbar() {
   return (
     <div className="Navbar">
-      <h1>Adam McKnight</h1>
+      <a href="/">
+        <h1>Adam McKnight</h1>
+      </a>
       <div className="links">
-        <a href="/">Work</a>
-        <a href="/">Blog</a>
-        <a href="/">Contact</a>
+        <a href="/work/">Work</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact">Contact</a>
       </div>
       
     </div>
