@@ -3,7 +3,7 @@ import React from 'react';
 function Log() {
   return (
     <div className="Log">
-      <h1>| Log &amp; Goals:</h1>
+      <h1>Log &amp; Goals:</h1>
 
           <h2>2021</h2>
 

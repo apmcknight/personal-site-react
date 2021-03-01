@@ -61,13 +61,16 @@ a{
   -webkit-box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
   -moz-box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
 }
-
+.Recent > h1{padding: 5% 0; }
 .Recent > p {
   line-height: 1.5em;
 }
 .recentItem > a{
   margin: 100px 0;
 }
+
+.Recent > h1{padding: 5% 0; }
+
 
 .Projects {
   margin-bottom: 10%;
@@ -85,6 +88,9 @@ a{
   -webkit-box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
   -moz-box-shadow: 0px 2px 15px -10px rgba(0,0,0,0.35);
 }
+.projectCard{ margin-bottom: 3%; }
+.recentCard{ margin-bottom: 3%; }
+
 .Log { margin-bottom: 20%; }
 .Log > .LogCard {
   padding-left: 10%;
@@ -96,6 +102,7 @@ a{
   margin-bottom: 15%;
 }
 .TagButton{
+  margin: 5% 0;
   padding: 10px 40px;
   border-radius: 100px;
   border-width: 0;
